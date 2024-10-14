@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select case conversion:"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_upper_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upper Case" />
+
+        <RadioButton
+            android:id="@+id/radio_lower_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lower Case" />
+
+        <RadioButton
+            android:id="@+id/radio_mixed_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mixed Case" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check me!" />
+
+    <Button
+        android:id="@+id/finish_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish" />
+</LinearLayout>
